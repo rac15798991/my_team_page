@@ -10,22 +10,25 @@
 
     <style>
         .info {
+            text-align: left;
             font-family: 'Poppins', serif;
             font-style: normal;
             display: flex;
-            align-items: center;
         }
 
-        h2 {
+        .l {
+            flex-shrink: 0;
+            margin-right: 5em;
+            margin-left: 10em;
+        }
+
+        .r {
+            margin-right: 16em;
+            margin-left: 7em;
+        }
+
+        h3 {
             text-transform: uppercase;
-            padding-left: 10em;
-            padding-right: 7em;
-
-        }
-
-        section {
-            padding-right: 15em;
-            padding-left: 7em;
         }
 
         footer {
@@ -40,13 +43,15 @@
 <body>
     <div class="info">
 
-        <h2>The creative crew</h2>
+        <div class="l">
+            <h1>The creative crew</h1>
+        </div>
 
-        <section>
+        <div class="r">
             <h3>Who we are</h3>
             <p>We are a team creatively diverse, driven, innovative individuals working in various locations from the
                 world.</p>
-        </section>
+        </div>
     </div>
 
     <div class="pics">
