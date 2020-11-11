@@ -1,0 +1,33 @@
+        @media screen and (max-width: 768px) {
+            .info {
+                flex-flow: column nowrap;
+            }
+        }
+
+        .info {
+            text-align: left;
+            font-family: 'Poppins', serif;
+            font-style: normal;
+            display: flex;
+        }
+
+        .l {
+            flex-shrink: 0;
+            margin-right: 5em;
+            margin-left: 10em;
+        }
+
+        .r {
+            margin-right: 16em;
+            margin-left: 7em;
+        }
+
+        h3 {
+            text-transform: uppercase;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 1em;
+            padding-top: 25em;
+        }
