@@ -16,12 +16,6 @@
             margin-left: 10em;
         }
 
-        @media screen and (max-width: 768px) {
-        .info {
-            flex-flow: wrap;
-            }
-        }
-
         .l {
             flex-shrink: 0;
             margin-right: 5em;
@@ -31,6 +25,27 @@
         .r {
             margin-right: 15em;
             margin-left: 8em;
+        }
+
+        @media screen and (max-width: 768px) {
+        .info {
+            display: block;
+            }
+
+        .l{
+            margin-right: 1em;
+            margin-left: 1em;
+            }
+
+        .r{
+            margin-right: 1em;
+            margin-left: 1em;
+            }
+
+        .content{
+            margin-left: 1em;
+        }
+        
         }
 
         img {
