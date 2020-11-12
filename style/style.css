@@ -1,13 +1,11 @@
-        @media screen and (max-width: 768px) {
-            .info {
-                flex-flow: column nowrap;
-            }
-        }
-
-        .info {
-            text-align: left;
+        body{
             font-family: 'Poppins', serif;
             font-style: normal;
+        } 
+        
+        .info {
+            justify-content: center;
+            text-align: left;
             margin-top: 3em;
             display: flex;
         }
@@ -18,10 +16,10 @@
             margin-left: 10em;
         }
 
-        img{
-            width: 20%;
-            margin-right: 4em;
-            margin-bottom: 4em ;
+        @media screen and (max-width: 768px) {
+        .info {
+            flex-flow: wrap;
+            }
         }
 
         .l {
@@ -31,8 +29,14 @@
         }
 
         .r {
-            margin-right: 16em;
-            margin-left: 7em;
+            margin-right: 15em;
+            margin-left: 8em;
+        }
+
+        img {
+            width: 20%;
+            margin-right: 4em;
+            margin-bottom: 4em ;
         }
 
         h3 {
