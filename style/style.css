@@ -8,18 +8,30 @@
             text-align: left;
             font-family: 'Poppins', serif;
             font-style: normal;
+            padding-top: 3em;
             display: flex;
+        }
+
+        .content {
+            display: flexbox; 
+            padding-top: 5em;           
+            padding-left: 10em;
+        }
+
+        img{
+            width: 20%;
+            padding-right: 4em;
         }
 
         .l {
             flex-shrink: 0;
-            margin-right: 5em;
-            margin-left: 10em;
+            padding-right: 5em;
+            padding-left: 10em;
         }
 
         .r {
-            margin-right: 16em;
-            margin-left: 7em;
+            padding-right: 16em;
+            padding-left: 7em;
         }
 
         h3 {
