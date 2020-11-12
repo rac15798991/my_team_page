@@ -8,30 +8,31 @@
             text-align: left;
             font-family: 'Poppins', serif;
             font-style: normal;
-            padding-top: 3em;
+            margin-top: 3em;
             display: flex;
         }
 
         .content {
             display: flexbox; 
-            padding-top: 5em;           
-            padding-left: 10em;
+            margin-top: 5em;           
+            margin-left: 10em;
         }
 
         img{
             width: 20%;
-            padding-right: 4em;
+            margin-right: 4em;
+            margin-bottom: 4em ;
         }
 
         .l {
             flex-shrink: 0;
-            padding-right: 5em;
-            padding-left: 10em;
+            margin-right: 5em;
+            margin-left: 10em;
         }
 
         .r {
-            padding-right: 16em;
-            padding-left: 7em;
+            margin-right: 16em;
+            margin-left: 7em;
         }
 
         h3 {
@@ -41,5 +42,5 @@
         footer {
             text-align: center;
             font-size: 1em;
-            padding-top: 25em;
+            margin-top: 5em;
         }
