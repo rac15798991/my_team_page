@@ -1,13 +1,11 @@
-        @media screen and (max-width: 768px) {
-            .info {
-                flex-flow: column nowrap;
-            }
-        }
-
-        .info {
-            text-align: left;
+        body{
             font-family: 'Poppins', serif;
             font-style: normal;
+        } 
+        
+        .info {
+            justify-content: center;
+            text-align: left;
             margin-top: 3em;
             display: flex;
         }
@@ -15,24 +13,45 @@
         .content {
             display: flexbox; 
             margin-top: 5em;           
-            margin-left: 10em;
-        }
-
-        img{
-            width: 20%;
-            margin-right: 4em;
-            margin-bottom: 4em ;
+            margin-left: 15em;
         }
 
         .l {
             flex-shrink: 0;
             margin-right: 5em;
-            margin-left: 10em;
+            margin-left: 15em;
         }
 
         .r {
-            margin-right: 16em;
-            margin-left: 7em;
+            margin-right: 15em;
+            margin-left: 5em;
+        }
+
+        @media screen and (max-width: 768px) {
+        .info {
+            display: block;
+            }
+
+        .l{
+            margin-right: 1em;
+            margin-left: 1em;
+            }
+
+        .r{
+            margin-right: 1em;
+            margin-left: 1em;
+            }
+
+        .content{
+            margin-left: 1em;
+        }
+
+        }
+
+        img {
+            width: 20%;
+            margin-right: 4em;
+            margin-bottom: 4em ;
         }
 
         h3 {
