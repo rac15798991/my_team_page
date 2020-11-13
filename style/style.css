@@ -13,18 +13,18 @@
         .content {
             display: flexbox; 
             margin-top: 5em;           
-            margin-left: 10em;
+            margin-left: 15em;
         }
 
         .l {
             flex-shrink: 0;
             margin-right: 5em;
-            margin-left: 10em;
+            margin-left: 15em;
         }
 
         .r {
             margin-right: 15em;
-            margin-left: 8em;
+            margin-left: 5em;
         }
 
         @media screen and (max-width: 768px) {
@@ -45,7 +45,7 @@
         .content{
             margin-left: 1em;
         }
-        
+
         }
 
         img {
