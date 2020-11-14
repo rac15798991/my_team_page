@@ -5,7 +5,7 @@
         
         .info {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: center;
             align-items: center;
         }
 
@@ -43,7 +43,7 @@
             }
 
         .content {
-            justify-content: left;
+            justify-content: center;
             display: flex;
             flex-wrap: wrap;
             margin: 1em;
@@ -52,7 +52,6 @@
             width: 40%;
             margin: 1em;
             }
-
         }
 
         h3 {
