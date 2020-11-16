@@ -48,9 +48,6 @@
             }
 
         .content {
-            justify-content: center;
-            display: flex;
-            flex-wrap: wrap;
             margin: 1em;
         }
         img {
