@@ -29,8 +29,13 @@
 
         img {
             width: 25%;
+            height: 25%;
             margin-right: 4em;
-            margin-bottom: 4em ;
+            margin-bottom: 4em;
+        }
+
+        #Saba, #Griff {
+            margin-top: 5em;
         }
 
         @media screen and (max-width: 768px) {
@@ -52,6 +57,15 @@
             width: 40%;
             margin: 1em;
             }
+
+        #Saba, #Skylah, #Stan {
+            margin-top: 5em;
+        }
+
+        #Griff {
+            margin-top: 2em;
+        }
+
         }
 
         h3 {
