@@ -7,6 +7,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: lightsalmon;
         }
 
         .l {
@@ -24,18 +25,19 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center; 
-            margin: 5em;
+            margin-top: 5em;
+            width: 100%;
+            background-color: lightcoral;
+        }        
+
+        .item {
+            width: 20%;
+            height: 20%;
+            margin-left: 4em;
         }
 
-        img {
-            width: 25%;
-            height: 25%;
-            margin-right: 4em;
-            margin-bottom: 4em;
-        }
-
-        #Saba, #Griff {
-            margin-top: 7em;
+        .item-pc {
+            margin-top: 5em;
         }
 
         @media screen and (max-width: 943px) {
