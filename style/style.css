@@ -14,14 +14,12 @@
         .l {
             background-color: lightblue;
             flex-shrink: 0;
-            margin-right: 5em;
-            margin-left: 5em;
+            margin: auto 5em auto 5em;
         }
 
         .r {
             background-color: lightseagreen;
-            margin-right: 5em;
-            margin-left: 5em;
+            margin: auto 5em auto 5em;
         }
 
         .content {
