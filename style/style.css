@@ -40,6 +40,10 @@
             margin-top: 5em;
         }
 
+        .item-pc.item-mobile {
+            margin-top: 5em;
+        }
+
         @media screen and (max-width: 943px) {
         .info {
             flex-direction: column;
