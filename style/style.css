@@ -12,13 +12,15 @@
         }
 
         .l {
+            background-color: lightblue;
             flex-shrink: 0;
             margin-right: 5em;
-            margin-left: 10em;
+            margin-left: 5em;
         }
 
         .r {
-            margin-right: 10em;
+            background-color: lightseagreen;
+            margin-right: 5em;
             margin-left: 5em;
         }
 
