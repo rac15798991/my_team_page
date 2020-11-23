@@ -35,11 +35,11 @@
         .item {
             width: 20%;
             height: 20%;
-            margin-left: 4em;
+            margin: auto auto auto 5em;
         }
 
         .item-pc {
-            margin-top: 5em;
+            margin-top: 10em;
         }
 
         @media screen and (max-width: 943px) {
