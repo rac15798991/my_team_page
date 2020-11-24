@@ -35,32 +35,37 @@
         }
         
         .photo {
-            display: flex;
+            /* display: flex;
+            flex-wrap: wrap; */
             width: 90%;
             height: fit-content;
             background-color: rgb(77, 58, 152);
         }
 
         figure {
+            display: flex;
             width: 90%;
             height: fit-content;
             background-color: rgb(164, 121, 207);
         }
 
-        figcaption {
+        .caps1 {
+            width: 20%;
+            height: 20%;
+            background-color: maroon;
             margin-top: 0.5em;
             text-align: left;
             font-weight: bold;
             font-size: larger;
         }
 
-        span {
-            /* display: flex;
-            flex-flow: wrap; */
-            margin-left: 1em;
+        .caps2 {
+            /* margin: 1em; */
+            width: 20%;
+            height: 20%;
             background-color: limegreen;
-            text-align: right;   
-            vertical-align: top;
+            text-align: left;
+            vertical-align: left;
             transform: rotate(90deg);           
             text-transform: uppercase;
             font-size: large;
@@ -69,7 +74,7 @@
         .item {
             width: 30%;
             height: 30%;
-            margin: auto;
+            /* margin: auto; */
         }
 
         .item-pc {
