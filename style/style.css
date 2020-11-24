@@ -1,10 +1,12 @@
-        body{
+        body {
             font-family: 'Poppins', serif;
             font-style: normal;
         } 
         
         .info {
             max-width: 1275px;
+            width: 100%;
+            margin-top: 5em;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -24,11 +26,11 @@
 
         .content {
             max-width: 1275px;
+            width: 100%;
+            margin: 4em auto auto auto;
             display: flex;
             flex-wrap: wrap;
             justify-content: center; 
-            margin: 4em auto auto auto;
-            width: 100%;
             background-color: lightcoral;
         }        
 
@@ -47,15 +49,15 @@
         .info {
             flex-direction: column;
             align-items: flex-start;
-            }       
-
+            }
+            
         .l, .r {
             margin: 1em;
             }
         
         .item {
             width: 30%;
-            margin: 2em;
+            margin: auto auto auto 1em;
             }
 
         .item-mobile {
