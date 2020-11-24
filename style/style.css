@@ -1,57 +1,77 @@
-        body{
+        body {
             font-family: 'Poppins', serif;
             font-style: normal;
         } 
         
         .info {
+            max-width: 1275px;
+            width: 100%;
+            margin-top: 5em;
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: lightsalmon;
         }
 
         .l {
+            background-color: lightblue;
             flex-shrink: 0;
-            margin-right: 5em;
-            margin-left: 10em;
+            margin: auto 5em auto 5em;
         }
 
         .r {
-            margin-right: 10em;
-            margin-left: 5em;
+            background-color: lightseagreen;
+            margin: auto 5em auto 5em;
         }
 
         .content {
+            max-width: 1275px;
+            width: 100%;
+            margin: 4em auto auto auto;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center; 
-            margin: 5em;           
+            justify-content: left; 
+            background-color: lightcoral;
+        }
+        
+        .photo {
+            width: 90%;
+            background-color: lightyellow;
         }
 
-        img {
-            width: 25%;
-            margin-right: 4em;
-            margin-bottom: 4em ;
+        figure {
+            background-color: rgb(164, 121, 207);
         }
 
-        @media screen and (max-width: 768px) {
+        .item {
+            width: 20%;
+            height: 20%;
+            margin: auto;
+        }
+
+        .item-pc {
+            margin-top: 10em;
+        }
+
+        @media screen and (max-width: 943px) {
+
         .info {
-            display: block;
+            flex-direction: column;
+            align-items: flex-start;
             }
-
+            
         .l, .r {
             margin: 1em;
             }
-
-        .content {
-            justify-content: center;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 1em;
-        }
-        img {
-            width: 40%;
-            margin: 1em;
+        
+        .item {
+            width: 30%;
+            margin: auto auto auto 1em;
             }
+
+        .item-mobile {
+            margin-top: 5em;
+        }
         }
 
         h3 {
