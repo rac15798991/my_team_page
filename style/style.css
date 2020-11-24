@@ -35,17 +35,38 @@
         }
         
         .photo {
+            display: flex;
             width: 90%;
-            background-color: lightyellow;
+            height: fit-content;
+            background-color: rgb(77, 58, 152);
         }
 
         figure {
+            width: 90%;
+            height: fit-content;
             background-color: rgb(164, 121, 207);
         }
 
+        figcaption {
+            margin-top: 0.5em;
+            text-align: left;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+        span {
+            margin-left: 1em;
+            background-color: limegreen;
+            text-align: right;   
+            vertical-align: top;
+            transform: rotate(90deg);           
+            text-transform: uppercase;
+            font-size: large;
+        }
+
         .item {
-            width: 20%;
-            height: 20%;
+            width: 30%;
+            height: 30%;
             margin: auto;
         }
 
