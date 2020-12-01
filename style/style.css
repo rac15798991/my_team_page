@@ -35,6 +35,8 @@
         }
         
         .photo {
+            display: flex;
+            position: relative;
             width: 90%;
             height: fit-content;
             background-color: rgb(77, 58, 152);
@@ -43,14 +45,15 @@
         figure {
             position: relative;
             display: block;
-            width: 90%;
+            width: auto;
             height: fit-content;
             background-color: rgb(164, 121, 207);
         }
 
-        .caps1 {
+        .capsBottom {
             position: absolute;
-            /* top: -1em; */
+            top: 100%;
+            left: auto;
             width: max-content;
             height: min-content;
             font-weight: bold;
@@ -58,10 +61,10 @@
             background-color: maroon;
         }
 
-        .caps2 {
+        .capsRight {
             position: absolute;
-            top: 3.5em;
-            left: 24%;
+            top: 14%;
+            left: 25%;
             width: max-content;
             height: min-content;
             transform: rotate(90deg); 
@@ -71,15 +74,17 @@
         }
 
         .item {
+            border: 3px solid crimson;
+            position: relative;
             width: 30%;
             height: 30%;
         }
 
         .item-pc {
-            margin-top: 10em;
+            margin-left: 5em;            
         }
 
-        @media screen and (max-width: 943px) {
+        @media screen and (max-width: 950px) {
 
         .info {
             flex-direction: column;
@@ -92,12 +97,25 @@
         
         .item {
             width: 30%;
-            margin: auto auto auto 1em;
+            margin: auto;
             }
 
         .item-mobile {
             margin-top: 5em;
         }
+
+        /* .capsRight {
+            position: absolute;
+            top: 27%;
+            left: 19%;
+            width: max-content;
+            height: min-content;
+            transform: rotate(90deg); 
+            text-transform: uppercase;
+            font-size: large;
+            background-color: limegreen;
+        } */
+
         }
 
         h3 {
