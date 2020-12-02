@@ -78,32 +78,35 @@
             flex-direction: column;
             align-items: flex-start;
             }
+
+        .content {
+            justify-content: left;
+            margin-top: 2em;
+        }
             
         .l, .r {
             margin: 1em;
             }
         
         .item {
-            width: 30%;
-            margin: auto;
+            width: 35%;
+            margin: 1em;
             }
 
         .item-mobile {
             margin-top: 5em;
         }
 
-        /* .capsRight {
-            position: absolute;
-            top: 27%;
-            left: 19%;
-            width: max-content;
-            height: min-content;
+        .capsRight {
+            position: relative;
+            top: 5em;
+            left: 7em;
+            width: 9em;
             transform: rotate(90deg); 
             text-transform: uppercase;
             font-size: large;
             background-color: limegreen;
-        } */
-
+        }
         }
 
         h3 {
