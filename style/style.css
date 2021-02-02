@@ -1,58 +1,113 @@
-        body{
+        body {
             font-family: 'Poppins', serif;
             font-style: normal;
         } 
         
         .info {
+            max-width: 1275px;
+            width: 100%;
+            margin-top: 5em;
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: lightsalmon;
         }
 
         .l {
             flex-shrink: 0;
-            margin-right: 5em;
-            margin-left: 10em;
+            margin: auto 5em auto 5em;
+            background-color: lightblue;
         }
 
         .r {
-            margin-right: 10em;
-            margin-left: 5em;
+            margin: auto 5em auto 5em;
+            background-color: lightseagreen;
         }
 
         .content {
-            display: flex;
+            /* display: flex; */
+            max-width: 1275px;
+            width: 100%;
+            margin: 4em auto auto auto;
             flex-wrap: wrap;
-            justify-content: center; 
-            margin: 5em;           
+            /* justify-content: left; */
+            background-color: lightcoral;
+        }
+
+        .item {
+            border: 3px solid crimson;
+            width: 26%;
+            height: 26%;
+            margin: 2em;
+        }
+
+        .item-pc {
+            margin-top: 10em;
+            margin-left: 3em;      
         }
 
         img {
-            width: 25%;
-            margin-right: 4em;
-            margin-bottom: 4em ;
+            width: 90%;
+            height: 100%;
+        }   
+
+        .capsBottom {
+            position: relative;
+            left: auto;
+            width: max-content;
+            height: min-content;
+            font-weight: bold;
+            font-size: larger;
+            background-color: maroon;
         }
 
-        @media screen and (max-width: 768px) {
+        .capsRight {
+            position: relative;
+            top: 4.6em;
+            left: 70%;
+            width: 9em;
+            transform: rotate(90deg); 
+            text-transform: uppercase;
+            font-size: large;
+            background-color: limegreen;
+        }
+
+        /* @media screen and (max-width: 950px) {
+
         .info {
-            display: block;
+            flex-direction: column;
+            align-items: flex-start;
             }
 
+        .content {
+            justify-content: left;
+            margin-top: 2em;
+        }
+            
         .l, .r {
             margin: 1em;
             }
-
-        .content {
-            justify-content: center;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 1em;
-        }
-        img {
-            width: 40%;
+        
+        .item {
+            width: 35%;
             margin: 1em;
             }
+
+        .item-mobile {
+            margin-top: 5em;
         }
+
+        .capsRight {
+            position: relative;
+            top: 5em;
+            left: 7em;
+            width: 9em;
+            transform: rotate(90deg); 
+            text-transform: uppercase;
+            font-size: large;
+            background-color: limegreen;
+        }
+        } */
 
         h3 {
             text-transform: uppercase;
