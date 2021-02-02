@@ -25,12 +25,12 @@
         }
 
         .content {
-            display: flex;
+            /* display: flex; */
             max-width: 1275px;
             width: 100%;
             margin: 4em auto auto auto;
             flex-wrap: wrap;
-            justify-content: center;
+            /* justify-content: left; */
             background-color: lightcoral;
         }
 
@@ -72,7 +72,7 @@
             background-color: limegreen;
         }
 
-        @media screen and (max-width: 950px) {
+        /* @media screen and (max-width: 950px) {
 
         .info {
             flex-direction: column;
@@ -107,7 +107,7 @@
             font-size: large;
             background-color: limegreen;
         }
-        }
+        } */
 
         h3 {
             text-transform: uppercase;
