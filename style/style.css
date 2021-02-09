@@ -22,6 +22,7 @@
         }
 
         .content {
+            display: flex;
             width: 90%;
             margin: 4em auto auto auto;
             flex-wrap: wrap;
@@ -59,7 +60,7 @@
 
         .right {
             position: absolute;
-            margin: -19% auto auto 8%;
+            margin: -19% auto auto 8.5%;
             width: 30%;
             height: 1em;
             transform: rotate(90deg); 
@@ -72,7 +73,7 @@
             font-size: 1em;
         }
 
-        /* @media screen and (max-width: 950px)
+        @media screen and (max-width: 768px) {
 
         .info {
             flex-direction: column;
@@ -92,22 +93,22 @@
             width: 35%;
             margin: 1em;
             }
-
+        
         .item-mobile {
             margin-top: 5em;
         }
 
-        .capsRight {
-            position: relative;
-            top: 5em;
-            left: 7em;
-            width: 9em;
+        .right {
+            position: absolute;
+            margin: -32% auto auto 13%;
+            width: 40%;
+            height: 1em;
             transform: rotate(90deg); 
             text-transform: uppercase;
-            font-size: large;
+            font-size: 1em;
             background-color: limegreen;
         }
-        } */
+        }        
 
         h3 {
             text-transform: uppercase;
