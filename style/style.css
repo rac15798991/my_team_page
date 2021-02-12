@@ -4,111 +4,128 @@
         } 
         
         .info {
-            max-width: 1275px;
             width: 100%;
-            margin-top: 5em;
+            margin: 5em auto auto auto;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: lightsalmon;
+            justify-content: space-around;
         }
 
         .l {
             flex-shrink: 0;
-            margin: auto 5em auto 5em;
-            background-color: lightblue;
+            margin: auto 1em auto 2em;
+            font-weight: bolder;
         }
 
         .r {
-            margin: auto 5em auto 5em;
-            background-color: lightseagreen;
+            width: 18%;
+            margin: auto 2em auto 2em;
         }
 
         .content {
-            /* display: flex; */
-            max-width: 1275px;
-            width: 100%;
-            margin: 4em auto auto auto;
+            display: flex;
             flex-wrap: wrap;
-            /* justify-content: left; */
-            background-color: lightcoral;
+            justify-content: center;
+            margin: 3em auto auto auto;
+            width: 100%;
         }
 
         .item {
-            display: flex;
-            border: 3px solid crimson;
-            width: 26%;
-            height: 26%;
-            margin: 2em;
+            margin: auto 3em auto 2em;
+            width: 20%;
+            height: auto;
         }
 
         .item-pc {
-            margin-top: 10em;
-            margin-left: 3em;      
+            margin: auto 3em auto 2em;  
+        }
+
+        .item-mobile {
+            margin: 4em 3em auto 2em;
         }
 
         img {
             width: 100%;
-            height: 100%;
+            height: auto;
         }   
 
-        .capsBottom {
-            position: relative;
-            left: auto;
+        .bottom {
             width: max-content;
             height: min-content;
-            font-weight: bold;
-            font-size: larger;
-            background-color: maroon;
+            font-weight: bolder;
+            font-size: 1.2em;
         }
 
         .right {
-            /* position: relative; */
-            top: 4.6em;
-            left: -1em;
-            width: 100%;
-            height: 1em;
-            /* transform: rotate(90deg);  */
+            position: absolute;
+            margin: -15% auto auto 6%;
+            width: 30%;
+            height: fit-content;
+            transform: rotate(90deg); 
             text-transform: uppercase;
-            font-size: medium;
-            background-color: limegreen;
+            letter-spacing: 0.3em;
+            font-weight: bold;
+            font-size: 0.7em;
         }
 
-        /* @media screen and (max-width: 950px)
+        figcaption {
+            font-size: 1em;
+        }
+
+        @media screen and (max-width: 768px) {
 
         .info {
             flex-direction: column;
             align-items: flex-start;
             }
-
-        .content {
-            justify-content: left;
-            margin-top: 2em;
-        }
             
         .l, .r {
             margin: 1em;
+            width: auto;
+            }
+
+        .content {
+            width: 100%;
+            justify-content: left;
+            margin-top: 2em;
             }
         
         .item {
-            width: 35%;
-            margin: 1em;
-            }
-
+            width: 28%
+            }        
+        
         .item-mobile {
-            margin-top: 5em;
+            width: 28%;
+            margin: 4em auto auto 1em;
         }
 
-        .capsRight {
-            position: relative;
-            top: 5em;
-            left: 7em;
-            width: 9em;
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .bottom {
+            width: max-content;
+            height: max-content;
+            font-weight: bold;
+            font-size: 0.8em;
+        }
+
+        .right {
+            position: absolute;
+            margin: -20% auto auto 4%;
+            width: 50%;
+            height: auto;
             transform: rotate(90deg); 
             text-transform: uppercase;
-            font-size: large;
-            background-color: limegreen;
+            font-size: 0.5em;
+            letter-spacing: 0.1;
         }
+        }
+        
+        /* @media screen and (min-width: 616px) {
+        .item-pc {
+            margin: 8em 4em auto 2em;  
+            }
         } */
 
         h3 {
