@@ -1,58 +1,112 @@
-        body{
+        body {
             font-family: 'Poppins', serif;
             font-style: normal;
         } 
         
         .info {
+            width: 100%;
+            margin: 5em auto auto auto;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: space-around;
         }
 
         .l {
             flex-shrink: 0;
-            margin-right: 5em;
-            margin-left: 10em;
+            margin: auto 1em auto 2em;
+            font-weight: bolder;
         }
 
         .r {
-            margin-right: 10em;
-            margin-left: 5em;
+            width: 18%;
+            margin: auto 2em auto 2em;
         }
 
         .content {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center; 
-            margin: 5em;           
+            flex-shrink: 0;
+            justify-content: center;
+            margin: 3em auto auto auto;
+            width: 80%;
+        }
+
+        .item {
+            margin: 4em 2em 2em 2em;
+            width: 25%;
+            height: auto;
+        }
+
+        .item-pc {
+            margin: 10em 2em auto 2em;  
         }
 
         img {
-            width: 25%;
-            margin-right: 4em;
-            margin-bottom: 4em ;
+            width: 100%;
+            height: auto;
+        }   
+
+        .bottom {
+            width: max-content;
+            height: min-content;
+            font-weight: bold;
+            font-size: 1.5em;
         }
 
-        @media screen and (max-width: 768px) {
+        .right {
+            position: absolute;
+            margin: -16% auto auto 6%;
+            width: 30%;
+            height: min-content;
+            transform: rotate(90deg); 
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+
+        figcaption {
+            font-size: 1em;
+        }
+
+        @media screen and (max-width: 700px) {
+
         .info {
-            display: block;
+            flex-direction: column;
+            align-items: flex-start;
             }
 
+        .content {
+            justify-content: left;
+            margin-top: 2em;
+        }
+            
         .l, .r {
             margin: 1em;
+            width: auto;
             }
+        
+        .item {
+            width: 42%;
+            margin: 1em;
+            }
+        
+        .item-mobile {
+            margin-top: 5em;
+        }
 
-        .content {
-            justify-content: center;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 1em;
-        }
         img {
-            width: 40%;
-            margin: 1em;
-            }
+            width: 80%;
+            height: auto;
         }
+
+        .right {
+            position: absolute;
+            margin: -32% auto auto 14%;
+            width: 40%;
+            height: 1em;
+            transform: rotate(90deg); 
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+        }     
 
         h3 {
             text-transform: uppercase;
