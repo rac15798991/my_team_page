@@ -150,6 +150,35 @@
             }
         }
 
+        @media screen and (min-width: 1616px) {
+            
+        .item {
+            width: 27%; 
+            }
+
+        .item-pc {
+            margin: 16em 3em auto 2em;
+        }
+
+        .bottom {
+            width: max-content;
+            height: max-content;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .right {
+            position: absolute;
+            margin: -15% auto auto 2.5%;
+            width: 50%;
+            height: auto;
+            transform: rotate(90deg); 
+            text-transform: uppercase;
+            font-size: 0.8em;
+            letter-spacing: 0.8;
+            }
+        }
+
         h3 {
             text-transform: uppercase;
         }
