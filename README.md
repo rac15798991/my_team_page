@@ -8,14 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
+    <span> My team page </span>
     <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
     </a>
@@ -35,23 +28,24 @@
 <!-- OVERVIEW -->
 
 ## Overview
+This is a challenge from devchallenges.io:
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+    <span> | </span>
+     <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
+      Challenge
+    </a>
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+The goal is to create a responsive My team webpage.
+Results can be seen in the screenshot below.
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+![screenshot](https://github.com/rac15798991/my_team_page/blob/2b4e6b36b3692c57a5009e7f09e274abc2382d96/screenshot-1.png)
+![screenshot](https://github.com/rac15798991/my_team_page/blob/2b4e6b36b3692c57a5009e7f09e274abc2382d96/screenshot-mobile.png)
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [VSCode](https://code.visualstudio.com)
 
 ## Features
 
