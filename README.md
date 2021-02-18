@@ -29,7 +29,6 @@
 
 ## Overview
 This is a challenge from devchallenges.io:
-
     <span> | </span>
      <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
