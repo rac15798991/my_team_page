@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">Team Page</h1>
 
 <div align="center">
@@ -15,8 +13,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -24,8 +20,6 @@
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
 
 ## Overview
 This is a challenge from devchallenges.io:
@@ -42,27 +36,19 @@ Results can be seen in the screenshot below.
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
 - [VSCode](https://code.visualstudio.com)
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
-
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+- [Guia Flexbox](https://origamid.com/projetos/flexbox-guia-completo/)
+- [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries#características_de_mídia)
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- [GitHub](https://github.com/rac15798991/)
+- email: rac15798991@gmail.com
